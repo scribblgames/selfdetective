@@ -46,6 +46,7 @@ function player.update(dt)
 end
 
 function player.draw()
+#this is disgusting gaht DAYUM i hate this
     if gamestate == 2 then
         if movedir == 0 and movstat == 1 then
             if movframe == 1 then
